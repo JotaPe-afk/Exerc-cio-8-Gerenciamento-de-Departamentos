@@ -2,7 +2,8 @@ package com.jp.demo.models;
 
 import jakarta.persistence.*;
 
-@Entity
+@Entity(name = "Departamento")
+@Table(name = "tb_departamento")
 public class DepartamentoModel {
 
     @Id
